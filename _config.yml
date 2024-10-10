@@ -117,8 +117,8 @@ author:
   name             : "제뮤라스"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  location         : "서울"
+  email            : "junstar96@naver.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
