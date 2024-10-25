@@ -28,7 +28,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/piano.png"
 logo                     : "/assets/images/pet_paw.png"
-masthead_title           : "여기가 마스트헤드 타이틀"
+masthead_title           : "개발 공부를 열심히 하기를"
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
