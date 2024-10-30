@@ -1,31 +1,25 @@
 {
-  "name": "jekyll-theme-chirpy",
-  "version": "7.1.1",
-  "description": "A minimal, responsive, and feature-rich Jekyll theme for technical writing.",
+  "name": "minimal-mistakes",
+  "private": true,
+  "version": "4.26.2",
+  "description": "Minimal Mistakes 2 column Jekyll theme.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cotes2020/jekyll-theme-chirpy.git"
+    "url": "https://github.com/mmistakes/minimal-mistakes.git"
   },
-  "author": "Cotes Chung",
+  "keywords": [
+    "jekyll",
+    "theme",
+    "minimal"
+  ],
+  "author": "Michael Rose",
   "license": "MIT",
-  "since": 2019,
   "bugs": {
-    "url": "https://github.com/cotes2020/jekyll-theme-chirpy/issues"
+    "url": "https://github.com/mmistakes/minimal-mistakes/issues"
   },
-  "homepage": "https://github.com/cotes2020/jekyll-theme-chirpy/",
-  "scripts": {
-    "build": "concurrently npm:build:*",
-    "build:css": "purgecss -c purgecss.config.js",
-    "build:js": "rollup -c --bundleConfigAsCjs --environment BUILD:production",
-    "watch:js": "rollup -c --bundleConfigAsCjs -w",
-    "lint:scss": "stylelint _sass/**/*.scss",
-    "lint:fix:scss": "npm run lint:scss -- --fix",
-    "test": "npm run lint:scss",
-    "prepare": "husky"
-  },
-  "dependencies": {
-    "@popperjs/core": "^2.11.8",
-    "bootstrap": "^5.3.3"
+  "homepage": "https://mmistakes.github.io/minimal-mistakes/",
+  "engines": {
+    "node": ">= 0.10.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.7",
@@ -173,5 +167,8 @@
       ],
       "@semantic-release/github"
     ]
+
+    "uglify-js": "^3.17.4"
+
   }
 }
